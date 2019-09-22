@@ -1,0 +1,26 @@
+{
+  "jobs": [
+    {
+      "id": "d5233fcb",
+      "thumbnail": "/sample-thumbnail.png",
+      "status": "RENDERING",
+      "render": {
+        "frameStart": 0,
+        "frameEnd": 1000,
+        "framesRendered": 634,
+        "averageFrameTime": 123271
+      }
+    },
+    {
+      "id": "c9a07b92",
+      "thumbnail": "/sample-thumbnail.png",
+      "status": "RENDERING",
+      "render": {
+        "frameStart": 0,
+        "frameEnd": 500,
+        "framesRendered": 12,
+        "averageFrameTime": 67000
+      }
+    }
+  ]
+}
