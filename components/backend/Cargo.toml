@@ -1,0 +1,31 @@
+[package]
+name = "ruddy"
+version = "0.0.0"
+authors = ["Andrew Jensen <andrewjensen90@gmail.com>"]
+edition = "2018"
+
+[[bin]]
+name = "controller"
+path = "src/controller/main.rs"
+
+[[bin]]
+name = "worker"
+path = "src/worker/main.rs"
+
+[[bin]]
+name = "utils"
+path = "src/utils/main.rs"
+
+[dependencies]
+actix = "0.8"
+actix-web = { version = "1.0", features = ["ssl"] }
+actix-files = "0.1"
+actix-web-actors = "1.0"
+chrono = "0.4"
+dotenv = "0.14"
+futures = "0.1"
+regex = "1"
+reqwest = "0.9"
+serde = "1.0"
+serde_json = "1.0"
+uuid = { version = "0.7", features = ["serde", "v4"] }
