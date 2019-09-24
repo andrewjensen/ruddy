@@ -20,7 +20,8 @@ use crate::messages::{
     StatusUpdate
 };
 
-const BLENDER_CMD_PATH: &str = "/Applications/Blender/blender.app/Contents/MacOS/blender";
+// const BLENDER_CMD_PATH: &str = "/Applications/Blender/blender.app/Contents/MacOS/blender";
+const BLENDER_CMD_PATH: &str = "/usr/local/blender/blender";
 
 #[derive(Debug, Copy, Clone)]
 pub enum CoolRenderUpdate {
